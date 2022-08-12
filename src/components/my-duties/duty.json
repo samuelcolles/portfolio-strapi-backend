@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_my_duties_duties",
+  "info": {
+    "displayName": "duty",
+    "icon": "bowling-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

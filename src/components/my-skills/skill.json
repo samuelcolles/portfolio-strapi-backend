@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_my_skills_skills",
+  "info": {
+    "displayName": "Skill",
+    "icon": "user-tag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

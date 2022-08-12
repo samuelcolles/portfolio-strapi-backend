@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skill_lists",
+  "info": {
+    "singularName": "skill-list",
+    "pluralName": "skill-lists",
+    "displayName": "Skill List",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "skill": {
+      "displayName": "Skill",
+      "type": "component",
+      "repeatable": true,
+      "component": "my-skills.skill"
+    }
+  }
+}
