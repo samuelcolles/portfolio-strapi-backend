@@ -97,6 +97,8 @@ package-lock.json
 **/package-lock.json
 !docs/package-lock.json
 *.heapsnapshot
+*.env
+.env
 
 
 ############################
