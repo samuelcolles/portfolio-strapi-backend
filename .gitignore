@@ -99,7 +99,7 @@ package-lock.json
 *.heapsnapshot
 *.env
 .env
-
+**.env
 
 ############################
 # Tests
