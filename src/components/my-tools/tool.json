@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_my_tools_tools",
+  "info": {
+    "displayName": "Tool",
+    "icon": "radiation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "NestedTools": {
+      "type": "component",
+      "repeatable": true,
+      "component": "my-tools.nested-tool"
+    }
+  }
+}

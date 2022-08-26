@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tool_lists",
+  "info": {
+    "singularName": "tool-list",
+    "pluralName": "tool-lists",
+    "displayName": "Tool List",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Tools": {
+      "type": "component",
+      "repeatable": true,
+      "component": "my-tools.tool"
+    }
+  }
+}
