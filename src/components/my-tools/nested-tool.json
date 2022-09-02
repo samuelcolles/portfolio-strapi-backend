@@ -1,7 +1,7 @@
 {
   "collectionName": "components_my_tools_nested_tools",
   "info": {
-    "displayName": "Nested tool",
+    "displayName": "nested-tool",
     "icon": "adjust",
     "description": ""
   },
@@ -11,14 +11,15 @@
       "type": "string"
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

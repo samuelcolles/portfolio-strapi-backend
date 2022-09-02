@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "Tools": {
+    "tools": {
       "type": "component",
       "repeatable": true,
       "component": "my-tools.tool"

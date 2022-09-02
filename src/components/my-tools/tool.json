@@ -1,7 +1,7 @@
 {
   "collectionName": "components_my_tools_tools",
   "info": {
-    "displayName": "Tool",
+    "displayName": "tool",
     "icon": "radiation",
     "description": ""
   },
@@ -21,7 +21,7 @@
         "audios"
       ]
     },
-    "NestedTools": {
+    "nestedtools": {
       "type": "component",
       "repeatable": true,
       "component": "my-tools.nested-tool"
