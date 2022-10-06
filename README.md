@@ -2,6 +2,8 @@
 
 
 Here are the needed enviornment variables 
+
+```
 HOST = 0.0.0.0
 PORT = 1337
 SENDGRID_API_KEY = 
@@ -10,5 +12,5 @@ APP_KEYS =
 API_TOKEN_SALT = 
 ADMIN_JWT_SECRET = 
 JWT_SECRET = 
-
+```
 
