@@ -20,11 +20,6 @@
         "videos",
         "audios"
       ]
-    },
-    "nestedtools": {
-      "type": "component",
-      "repeatable": true,
-      "component": "my-tools.nested-tool"
     }
   }
 }
