@@ -19,6 +19,9 @@
       "type": "component",
       "repeatable": true,
       "component": "my-tools.tool"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

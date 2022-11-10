@@ -4,7 +4,8 @@
   "info": {
     "singularName": "certification",
     "pluralName": "certifications",
-    "displayName": "Certification"
+    "displayName": "Certification",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,16 +17,19 @@
       "required": true
     },
     "badge": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "link": {
       "type": "string",
       "required": true
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
