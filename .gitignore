@@ -100,6 +100,7 @@ package-lock.json
 *.env
 .env
 **.env
+.cache
 
 ############################
 # Tests
